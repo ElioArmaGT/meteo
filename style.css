@@ -1,0 +1,50 @@
+body {
+    font-family: montserratregular;
+    background-image: url(images/background.jpg);
+    background-color: #0d2f67;
+    color: #26264e
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 120px;
+    padding-left: 30px
+}
+
+.boite {}
+
+#boite1 {
+    font-family: montserratextralight;
+    font-size: 2em;
+}
+
+#boite2 {
+    font-size: 10em;
+}
+
+#boite3 {
+    font-size: 1.5em;
+    padding-top: 10px
+}
+
+#city {
+    vertical-align: top;
+}
+
+#currency {
+    font-size: 0.5em;
+}
+
+#locationlogo {
+    width: 40px;
+    position: relative;
+    top: 0;
+    -webkit-transition: top 0.5s;
+}
+
+#locationlogo:hover {
+    top: -10px;
+    -webkit-transition: top 0.5s;
+}
